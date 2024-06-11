@@ -1,0 +1,11 @@
+<div mat-dialog-content class="dialog-content">
+  <img [src]="data.avatar_url" alt="{{ data.login }}" class="avatar">
+  <div class="user-details">
+    <p><strong>Nome: </strong> {{ data.login }}</p>
+    <p><strong>Link: </strong> <a href="{{ data.received_events_url }}" target="_blank">Dados GIT</a></p>
+  </div>
+  <div class="divider"></div>
+  <div class="dialog-actions">
+    <button (click)="fecharModal()" mat-button mat-dialog-close class="close-button blue">Fechar</button>
+  </div>
+</div>

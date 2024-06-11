@@ -1,0 +1,53 @@
+mat-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  padding: 16px;
+  margin: 16px auto;
+  max-width: 800px;
+}
+
+.form {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: right;
+}
+
+.full-width-table {
+  width: 100%;
+}
+
+.mat-header-cell,
+.mat-cell {
+  padding: 8px;
+}
+
+button {
+  margin-left: 8px;
+}
+
+mat-paginator {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.custom-toolbar {
+  background-color: black;
+  color: white;
+  justify-content: center;
+}
+
+.custom-form-field {
+  width: 200px;
+  height: 60px;  
+}
+
+.container_fiter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
